@@ -5,6 +5,4 @@ class Person:
 
   def myfunc(self):
     print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-p1.myfunc()
+    print("And I am " + self.age + " years old.")

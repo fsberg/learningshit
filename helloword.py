@@ -1,14 +1,11 @@
-num_ls = 20
+from pers import Person
 
 print("hello world")
-x = input("?")
+x = input("Name:")
+age = input("Age:")
+
+print(age)
 print(x)
 
-for i in range(9):
-    print(i)
-
-if( num_ls == 20):
-    print("hej\n")
-    num_ls -= num_ls
-else:
-    print("slut")
+p1 = Person(str(x), age)
+p1.myfunc()
